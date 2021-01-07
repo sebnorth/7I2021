@@ -32,7 +32,7 @@ namespace Zadanie3
             pracownik.zarobki = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine($"Pracownik {pracownik.imie} {pracownik.nazwisko} ({pracownik.pesel}) zarabia {pracownik.zarobki} zł.");
-
+            Console.ReadKey();
         }
     }
 }

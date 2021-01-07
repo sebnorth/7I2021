@@ -17,7 +17,7 @@ namespace Zadanie2
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(f(4));
+            Console.WriteLine(f(4)); // -13
             Console.ReadKey();
         }
     }
